@@ -1,0 +1,174 @@
+{
+  "pustaka": [
+    {
+      "id": "ondel-ondel",
+      "judul": "Ondel-ondel",
+      "kategori": "Kesenian",
+      "ilustrasi": "ondel",
+      "ringkas": "Boneka raksasa yang selalu tampil berpasangan.",
+      "isi": [
+        "Ondel-ondel adalah boneka besar setinggi sekitar dua setengah meter. Kerangkanya dibuat dari anyaman bambu sehingga bisa dipikul oleh orang yang berjalan di dalamnya.",
+        "Ondel-ondel selalu tampil berpasangan. Yang laki-laki biasanya berwajah merah, dan yang perempuan berwajah putih.",
+        "Dulu ondel-ondel dipercaya sebagai penolak bala. Sekarang ondel-ondel tampil di perayaan, pernikahan, dan penyambutan tamu, diiringi musik Betawi."
+      ],
+      "soal": [
+        {
+          "id": "q-ondel-1",
+          "tipe": "pilih_arti",
+          "kata": "Kerangka ondel-ondel dibuat dari apa?",
+          "pilihan": ["Anyaman bambu", "Besi", "Batu", "Plastik"],
+          "jawaban": "Anyaman bambu",
+          "validator": null,
+          "tanggal_validasi": null
+        },
+        {
+          "id": "q-ondel-2",
+          "tipe": "pilih_arti",
+          "kata": "Ondel-ondel perempuan biasanya berwajah warna apa?",
+          "pilihan": ["Putih", "Merah", "Hijau", "Hitam"],
+          "jawaban": "Putih",
+          "validator": null,
+          "tanggal_validasi": null
+        }
+      ],
+      "validator": null,
+      "tanggal_validasi": null
+    },
+    {
+      "id": "gambang-kromong",
+      "judul": "Gambang kromong",
+      "kategori": "Kesenian",
+      "ilustrasi": "gambang",
+      "ringkas": "Musik dari perpaduan alat Betawi dan Tionghoa.",
+      "isi": [
+        "Gambang kromong adalah musik Betawi yang memadukan alat musik Betawi dan Tionghoa.",
+        "Namanya diambil dari dua alat utamanya. Gambang adalah bilah-bilah kayu yang dipukul, dan kromong adalah deretan gong kecil.",
+        "Alat gesek seperti tehyan, kongahyan, dan sukong berasal dari pengaruh Tionghoa. Gambang kromong sering mengiringi lenong dan tari."
+      ],
+      "soal": [
+        {
+          "id": "q-gambang-1",
+          "tipe": "pilih_arti",
+          "kata": "Gambang dibuat dari apa?",
+          "pilihan": ["Bilah kayu", "Kulit sapi", "Bambu tipis", "Senar baja"],
+          "jawaban": "Bilah kayu",
+          "validator": null,
+          "tanggal_validasi": null
+        },
+        {
+          "id": "q-gambang-2",
+          "tipe": "pilih_arti",
+          "kata": "Tehyan termasuk jenis alat musik apa?",
+          "pilihan": ["Alat gesek", "Alat tiup", "Gong", "Gendang"],
+          "jawaban": "Alat gesek",
+          "validator": null,
+          "tanggal_validasi": null
+        }
+      ],
+      "validator": null,
+      "tanggal_validasi": null
+    },
+    {
+      "id": "kerak-telor",
+      "judul": "Kerak telor",
+      "kategori": "Kuliner",
+      "ilustrasi": "kerak",
+      "ringkas": "Ketan dan telur yang dimasak di atas arang.",
+      "isi": [
+        "Kerak telor dibuat dari beras ketan, telur ayam atau telur bebek, ebi, kelapa sangrai, dan bawang goreng.",
+        "Adonan dimasak di wajan kecil di atas arang. Setelah bagian bawahnya kering, wajan dibalik menghadap api supaya bagian atasnya ikut matang.",
+        "Kerak telor mudah ditemui di Setu Babakan dan di perayaan ulang tahun Jakarta."
+      ],
+      "soal": [
+        {
+          "id": "q-kerak-1",
+          "tipe": "pilih_arti",
+          "kata": "Kerak telor dimasak di atas apa?",
+          "pilihan": ["Arang", "Kompor listrik", "Oven", "Kukusan"],
+          "jawaban": "Arang",
+          "validator": null,
+          "tanggal_validasi": null
+        },
+        {
+          "id": "q-kerak-2",
+          "tipe": "pilih_arti",
+          "kata": "Beras apa yang dipakai untuk kerak telor?",
+          "pilihan": ["Beras ketan", "Beras merah", "Beras jagung", "Beras hitam"],
+          "jawaban": "Beras ketan",
+          "validator": null,
+          "tanggal_validasi": null
+        }
+      ],
+      "validator": null,
+      "tanggal_validasi": null
+    },
+    {
+      "id": "rumah-kebaya",
+      "judul": "Rumah kebaya",
+      "kategori": "Arsitektur",
+      "ilustrasi": "rumah",
+      "ringkas": "Rumah adat Betawi dengan atap berlipat.",
+      "isi": [
+        "Rumah kebaya adalah salah satu rumah adat Betawi. Namanya berasal dari bentuk atapnya yang terlihat berlipat seperti lipatan kebaya bila dilihat dari samping.",
+        "Rumah kebaya punya teras depan yang luas. Teras dipakai untuk menerima tamu dan mengobrol dengan tetangga.",
+        "Contoh rumah kebaya bisa dilihat di Perkampungan Budaya Betawi Setu Babakan, Jagakarsa, Jakarta Selatan."
+      ],
+      "soal": [
+        {
+          "id": "q-rumah-1",
+          "tipe": "pilih_arti",
+          "kata": "Nama rumah kebaya berasal dari bagian rumah yang mana?",
+          "pilihan": ["Atap", "Pintu", "Lantai", "Jendela"],
+          "jawaban": "Atap",
+          "validator": null,
+          "tanggal_validasi": null
+        },
+        {
+          "id": "q-rumah-2",
+          "tipe": "pilih_arti",
+          "kata": "Untuk apa teras rumah kebaya dipakai?",
+          "pilihan": ["Menerima tamu", "Menyimpan padi", "Memelihara ikan", "Memasak"],
+          "jawaban": "Menerima tamu",
+          "validator": null,
+          "tanggal_validasi": null
+        }
+      ],
+      "validator": null,
+      "tanggal_validasi": null
+    },
+    {
+      "id": "palang-pintu",
+      "judul": "Palang pintu",
+      "kategori": "Tradisi",
+      "ilustrasi": "palang",
+      "ringkas": "Adu pantun dan silat sebelum pengantin pria boleh masuk.",
+      "isi": [
+        "Palang pintu adalah tradisi dalam pernikahan Betawi. Rombongan pengantin pria dihadang dulu sebelum boleh masuk ke rumah pengantin perempuan.",
+        "Kedua pihak saling berbalas pantun, lalu jagoan dari kedua pihak beradu silat. Ada juga pembacaan sike, yaitu lantunan selawat.",
+        "Setelah pihak pengantin pria menang, palang dibuka dan rombongan dipersilakan masuk."
+      ],
+      "soal": [
+        {
+          "id": "q-palang-1",
+          "tipe": "pilih_arti",
+          "kata": "Palang pintu dilakukan dalam acara apa?",
+          "pilihan": ["Pernikahan", "Panen", "Khitanan", "Ulang tahun"],
+          "jawaban": "Pernikahan",
+          "validator": null,
+          "tanggal_validasi": null
+        },
+        {
+          "id": "q-palang-2",
+          "tipe": "pilih_arti",
+          "kata": "Apa yang dilakukan kedua pihak sebelum adu silat?",
+          "pilihan": ["Berbalas pantun", "Makan bersama", "Menari", "Bermain gambang"],
+          "jawaban": "Berbalas pantun",
+          "validator": null,
+          "tanggal_validasi": null
+        }
+      ],
+      "validator": null,
+      "tanggal_validasi": null
+    }
+  ]
+}

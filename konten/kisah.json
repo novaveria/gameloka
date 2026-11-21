@@ -1,0 +1,209 @@
+{
+  "kisah": [
+    {
+      "id": "kisah-kemayoran",
+      "judul": "Kenalan di Kemayoran",
+      "lokasi": "kemayoran",
+      "bagian": "b1",
+      "kartu": ["roti-buaya", "keroncong-kemayoran"],
+      "adegan": [
+        {
+          "karakter": "Bang Jali",
+          "teks": "Eh, ade bocah baru! Ape kabar?",
+          "arti": "Eh, ada anak baru! Apa kabar?",
+          "pilihan": [
+            {
+              "teks": "Aye baek-baek aje, Bang.",
+              "arti": "Saya baik-baik saja, Bang.",
+              "tepat": true,
+              "balasan": "Syukur dah. Nama aye Jali. Nama ente siape?",
+              "balasanArti": "Syukurlah. Nama saya Jali. Nama kamu siapa?"
+            },
+            {
+              "teks": "Aye kagak tau, Bang.",
+              "arti": "Saya tidak tahu, Bang.",
+              "tepat": false,
+              "balasan": "Lho, masa kagak tau kabar sendiri? Bilang aje: aye baek-baek aje.",
+              "balasanArti": "Lho, masa tidak tahu kabar sendiri? Bilang saja: saya baik-baik saja."
+            }
+          ]
+        },
+        {
+          "karakter": "Bang Jali",
+          "teks": "Ente udeh pernah ke Kemayoran belon?",
+          "arti": "Kamu sudah pernah ke Kemayoran belum?",
+          "pilihan": [
+            {
+              "teks": "Belon, Bang. Ini pertama kali.",
+              "arti": "Belum, Bang. Ini pertama kali.",
+              "tepat": true,
+              "balasan": "Ayo, aye anterin keliling.",
+              "balasanArti": "Ayo, saya antar keliling."
+            },
+            {
+              "teks": "Udeh makan, Bang.",
+              "arti": "Sudah makan, Bang.",
+              "tepat": false,
+              "balasan": "Aye nanya Kemayoran, bukan makan! Ya udeh, ayo aye anterin keliling.",
+              "balasanArti": "Saya tanya Kemayoran, bukan makan! Ya sudah, ayo saya antar keliling."
+            }
+          ]
+        },
+        {
+          "karakter": "Bang Jali",
+          "teks": "Dulu di Kemayoran ade bandara. Kapal terbang naek turun di mari.",
+          "arti": "Dulu di Kemayoran ada bandara. Pesawat naik turun di sini."
+        },
+        {
+          "karakter": "Bang Jali",
+          "teks": "Nih, aye kasih kenang-kenangan. Jangan lupa ame sapaan Betawi, ye!",
+          "arti": "Ini, saya beri kenang-kenangan. Jangan lupa dengan sapaan Betawi, ya!",
+          "pilihan": [
+            {
+              "teks": "Makasih, Bang Jali!",
+              "arti": "Terima kasih, Bang Jali!",
+              "tepat": true,
+              "balasan": "Same-same. Ati-ati di jalan!",
+              "balasanArti": "Sama-sama. Hati-hati di jalan!"
+            },
+            {
+              "teks": "Aye pulang dulu, Bang.",
+              "arti": "Saya pulang dulu, Bang.",
+              "tepat": true,
+              "balasan": "Iye, ati-ati di jalan!",
+              "balasanArti": "Iya, hati-hati di jalan!"
+            }
+          ]
+        }
+      ],
+      "validator": null,
+      "tanggal_validasi": null
+    },
+    {
+      "id": "kisah-condet",
+      "judul": "Metik salak di Condet",
+      "lokasi": "condet",
+      "bagian": "b2",
+      "kartu": ["salak-condet", "dodol-betawi"],
+      "adegan": [
+        {
+          "karakter": "Mpok Ipah",
+          "teks": "Eh, ente dateng juga. Mau bantuin Mpok metik salak?",
+          "arti": "Eh, kamu datang juga. Mau bantu Kakak memetik salak?",
+          "pilihan": [
+            {
+              "teks": "Mau, Mpok! Aye demen salak.",
+              "arti": "Mau, Kak! Saya suka salak.",
+              "tepat": true,
+              "balasan": "Bagus. Ati-ati, pohonnye berduri.",
+              "balasanArti": "Bagus. Hati-hati, pohonnya berduri."
+            },
+            {
+              "teks": "Aye kagak demen kebon, Mpok.",
+              "arti": "Saya tidak suka kebun, Kak.",
+              "tepat": false,
+              "balasan": "Cobain dulu. Salak Condet manis, lho.",
+              "balasanArti": "Coba dulu. Salak Condet manis, lho."
+            }
+          ]
+        },
+        {
+          "karakter": "Mpok Ipah",
+          "teks": "Salak Condet ntu tanaman identitas Jakarta.",
+          "arti": "Salak Condet itu tanaman identitas Jakarta."
+        },
+        {
+          "karakter": "Mpok Ipah",
+          "teks": "Abis metik, kite jajan. Ente laper ape aus?",
+          "arti": "Setelah memetik, kita jajan. Kamu lapar atau haus?",
+          "pilihan": [
+            {
+              "teks": "Aye aus, mau minum bir pletok.",
+              "arti": "Saya haus, mau minum bir pletok.",
+              "tepat": true,
+              "balasan": "Bir pletok ntu minuman rempah, kagak ade alkoholnye.",
+              "balasanArti": "Bir pletok itu minuman rempah, tidak ada alkoholnya."
+            },
+            {
+              "teks": "Aye laper, mau makan dodol.",
+              "arti": "Saya lapar, mau makan dodol.",
+              "tepat": true,
+              "balasan": "Dodol Betawi diaduknye lama, bise berjam-jam.",
+              "balasanArti": "Dodol Betawi diaduknya lama, bisa berjam-jam."
+            }
+          ]
+        },
+        {
+          "karakter": "Mpok Ipah",
+          "teks": "Makasih udeh bantuin. Nih, buat ente.",
+          "arti": "Terima kasih sudah membantu. Ini, untuk kamu."
+        }
+      ],
+      "validator": null,
+      "tanggal_validasi": null
+    },
+    {
+      "id": "kisah-setu-babakan",
+      "judul": "Main ke Setu Babakan",
+      "lokasi": "setu-babakan",
+      "bagian": "b3",
+      "kartu": ["ondel-ondel", "gambang-kromong", "kerak-telor"],
+      "adegan": [
+        {
+          "karakter": "Engkong Mamat",
+          "teks": "Selamet dateng di Setu Babakan, perkampungan budaya Betawi.",
+          "arti": "Selamat datang di Setu Babakan, perkampungan budaya Betawi."
+        },
+        {
+          "karakter": "Engkong Mamat",
+          "teks": "Ente tau nyang gede ntu ape?",
+          "arti": "Kamu tahu yang besar itu apa?",
+          "pilihan": [
+            {
+              "teks": "Ondel-ondel, Kong!",
+              "arti": "Ondel-ondel, Kek!",
+              "tepat": true,
+              "balasan": "Pinter. Ondel-ondel ntu sepasang, laki ame perempuan.",
+              "balasanArti": "Pintar. Ondel-ondel itu sepasang, laki-laki dan perempuan."
+            },
+            {
+              "teks": "Rume kebaya, Kong.",
+              "arti": "Rumah kebaya, Kek.",
+              "tepat": false,
+              "balasan": "Bukan, ntu ondel-ondel. Rume kebaya nyang di belakangnye.",
+              "balasanArti": "Bukan, itu ondel-ondel. Rumah kebaya yang di belakangnya."
+            }
+          ]
+        },
+        {
+          "karakter": "Engkong Mamat",
+          "teks": "Denger, ntu musik gambang kromong. Mau nonton?",
+          "arti": "Dengar, itu musik gambang kromong. Mau menonton?",
+          "pilihan": [
+            {
+              "teks": "Ayo, Kong, kite nonton!",
+              "arti": "Ayo, Kek, kita menonton!",
+              "tepat": true,
+              "balasan": "Ayo. Abis ntu kite beli kerak telor.",
+              "balasanArti": "Ayo. Setelah itu kita beli kerak telor."
+            },
+            {
+              "teks": "Aye mau pulang aje, Kong.",
+              "arti": "Saya mau pulang saja, Kek.",
+              "tepat": false,
+              "balasan": "Entar dulu. Sayang kalo kagak nonton.",
+              "balasanArti": "Nanti dulu. Sayang kalau tidak menonton."
+            }
+          ]
+        },
+        {
+          "karakter": "Engkong Mamat",
+          "teks": "Ente udeh keliling Jakarta. Nih, oleh-oleh dari Engkong.",
+          "arti": "Kamu sudah keliling Jakarta. Ini, oleh-oleh dari Kakek."
+        }
+      ],
+      "validator": null,
+      "tanggal_validasi": null
+    }
+  ]
+}
