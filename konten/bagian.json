@@ -1,0 +1,595 @@
+{
+  "bagian": [
+    {
+      "id": "b1",
+      "nomor": 1,
+      "judul": "Sapaan Betawi",
+      "lokasi": "kemayoran",
+      "namaLokasi": "Kemayoran",
+      "warna": "merah",
+      "kisah": "kisah-kemayoran",
+      "lencana": {"id": "lencana-b1", "nama": "Jago Nyapa"},
+      "pelajaran": [
+        {
+          "id": "p1-1",
+          "judul": "Kenalan",
+          "jenis": "pelajaran",
+          "ikon": "bintang",
+          "soal": [
+            {
+              "id": "s1-1-1",
+              "tipe": "pilih_arti",
+              "kata": "aye",
+              "pilihan": ["saya", "kamu", "kita", "dia"],
+              "jawaban": "saya",
+              "contoh": "Aye anak Kemayoran. (Saya anak Kemayoran.)",
+              "validator": null,
+              "tanggal_validasi": null
+            },
+            {
+              "id": "s1-1-2",
+              "tipe": "dengar",
+              "audio": null,
+              "teks": "aye",
+              "pilihan": ["aye", "ape", "aje", "iye"],
+              "jawaban": "aye",
+              "contoh": "Aye = saya",
+              "validator": null,
+              "tanggal_validasi": null
+            },
+            {
+              "id": "s1-1-3",
+              "tipe": "susun",
+              "teks": "Nama aye Jali.",
+              "jawaban": ["Nama", "saya", "Jali"],
+              "pengecoh": ["kamu", "apa", "sudah"],
+              "contoh": "Nama aye Ipah. (Nama saya Ipah.)",
+              "validator": null,
+              "tanggal_validasi": null
+            },
+            {
+              "id": "s1-1-4",
+              "tipe": "pilih_arti",
+              "kata": "ente",
+              "pilihan": ["kamu", "saya", "mereka", "kita"],
+              "jawaban": "kamu",
+              "contoh": "Nama ente siape? (Nama kamu siapa?)",
+              "validator": null,
+              "tanggal_validasi": null
+            },
+            {
+              "id": "s1-1-5",
+              "tipe": "pilih_arti",
+              "kata": "kagak",
+              "pilihan": ["tidak", "iya", "belum", "sudah"],
+              "jawaban": "tidak",
+              "contoh": "Aye kagak tau. (Saya tidak tahu.)",
+              "validator": null,
+              "tanggal_validasi": null
+            },
+            {
+              "id": "s1-1-6",
+              "tipe": "pasangan",
+              "pasangan": [["aye", "saya"], ["ente", "kamu"], ["iye", "iya"], ["kagak", "tidak"]],
+              "validator": null,
+              "tanggal_validasi": null
+            },
+            {
+              "id": "s1-1-7",
+              "tipe": "susun",
+              "teks": "Aye kagak tau.",
+              "jawaban": ["Saya", "tidak", "tahu"],
+              "pengecoh": ["kamu", "sudah", "mau"],
+              "contoh": "Aye kagak tau rumenye. (Saya tidak tahu rumahnya.)",
+              "validator": null,
+              "tanggal_validasi": null
+            }
+          ]
+        },
+        {
+          "id": "p1-2",
+          "judul": "Ape kabar?",
+          "jenis": "pelajaran",
+          "ikon": "audio",
+          "soal": [
+            {
+              "id": "s1-2-1",
+              "tipe": "pilih_arti",
+              "kata": "ape",
+              "pilihan": ["apa", "siapa", "mana", "kapan"],
+              "jawaban": "apa",
+              "contoh": "Ape kabar? (Apa kabar?)",
+              "validator": null,
+              "tanggal_validasi": null
+            },
+            {
+              "id": "s1-2-2",
+              "tipe": "dengar",
+              "audio": null,
+              "teks": "Ape kabar?",
+              "pilihan": ["Ape kabar?", "Kemane aje?", "Udeh makan?", "Nama ente siape?"],
+              "jawaban": "Ape kabar?",
+              "contoh": "Ape kabar? = Apa kabar?",
+              "validator": null,
+              "tanggal_validasi": null
+            },
+            {
+              "id": "s1-2-3",
+              "tipe": "pilih_arti",
+              "kata": "baek",
+              "pilihan": ["baik", "buruk", "besar", "lapar"],
+              "jawaban": "baik",
+              "contoh": "Aye baek-baek aje. (Saya baik-baik saja.)",
+              "validator": null,
+              "tanggal_validasi": null
+            },
+            {
+              "id": "s1-2-4",
+              "tipe": "susun",
+              "teks": "Aye baek-baek aje.",
+              "jawaban": ["Saya", "baik-baik", "saja"],
+              "pengecoh": ["tidak", "kamu", "sudah"],
+              "contoh": "Aye baek-baek aje, Bang. (Saya baik-baik saja, Bang.)",
+              "validator": null,
+              "tanggal_validasi": null
+            },
+            {
+              "id": "s1-2-5",
+              "tipe": "pantun",
+              "baris": [
+                "Burung kutilang di atas genteng,",
+                "Terbangnye pelan ke arah kali,",
+                "Ape kabar abang nyang ganteng,",
+                "Aye ___ kemari lagi."
+              ],
+              "pilihan": ["mampir", "mandi", "makan", "minum"],
+              "jawaban": "mampir",
+              "contoh": "Mampir = singgah sebentar",
+              "validator": null,
+              "tanggal_validasi": null
+            },
+            {
+              "id": "s1-2-6",
+              "tipe": "pilih_arti",
+              "kata": "kemane",
+              "pilihan": ["ke mana", "di mana", "dari mana", "kapan"],
+              "jawaban": "ke mana",
+              "contoh": "Ente mau kemane? (Kamu mau ke mana?)",
+              "validator": null,
+              "tanggal_validasi": null
+            },
+            {
+              "id": "s1-2-7",
+              "tipe": "pasangan",
+              "pasangan": [["ape", "apa"], ["baek", "baik"], ["kemane", "ke mana"], ["aje", "saja"]],
+              "validator": null,
+              "tanggal_validasi": null
+            }
+          ]
+        },
+        {
+          "id": "p1-3",
+          "judul": "Ngobrol di kampung",
+          "jenis": "pelajaran",
+          "ikon": "pena",
+          "soal": [
+            {
+              "id": "s1-3-1",
+              "tipe": "pilih_arti",
+              "kata": "udeh",
+              "pilihan": ["sudah", "belum", "nanti", "sedang"],
+              "jawaban": "sudah",
+              "contoh": "Aye udeh makan. (Saya sudah makan.)",
+              "validator": null,
+              "tanggal_validasi": null
+            },
+            {
+              "id": "s1-3-2",
+              "tipe": "pilih_arti",
+              "kata": "belon",
+              "pilihan": ["belum", "sudah", "besok", "jangan"],
+              "jawaban": "belum",
+              "contoh": "Aye belon mandi. (Saya belum mandi.)",
+              "validator": null,
+              "tanggal_validasi": null
+            },
+            {
+              "id": "s1-3-3",
+              "tipe": "dengar",
+              "audio": null,
+              "teks": "Udeh makan belon?",
+              "pilihan": ["Udeh makan belon?", "Ape kabar?", "Nama aye Jali.", "Aye kagak tau."],
+              "jawaban": "Udeh makan belon?",
+              "contoh": "Udeh makan belon? = Sudah makan belum?",
+              "validator": null,
+              "tanggal_validasi": null
+            },
+            {
+              "id": "s1-3-4",
+              "tipe": "susun",
+              "teks": "Aye mau pegi ke pasar.",
+              "jawaban": ["Saya", "mau", "pergi", "ke", "pasar"],
+              "pengecoh": ["rumah", "sudah"],
+              "contoh": "Babe pegi ke pasar. (Ayah pergi ke pasar.)",
+              "validator": null,
+              "tanggal_validasi": null
+            },
+            {
+              "id": "s1-3-5",
+              "tipe": "pantun",
+              "baris": [
+                "Pegi ke Condet beli salak,",
+                "Salak dibawa naek sepede,",
+                "Ketemu orang tua jangan galak,",
+                "Kudu ___ ame nyang lebih tue."
+              ],
+              "pilihan": ["sopan", "galak", "malu", "lari"],
+              "jawaban": "sopan",
+              "contoh": "Kudu sopan = harus sopan",
+              "validator": null,
+              "tanggal_validasi": null
+            },
+            {
+              "id": "s1-3-6",
+              "tipe": "pilih_arti",
+              "kata": "kudu",
+              "pilihan": ["harus", "boleh", "mau", "bisa"],
+              "jawaban": "harus",
+              "contoh": "Ente kudu belajar. (Kamu harus belajar.)",
+              "validator": null,
+              "tanggal_validasi": null
+            },
+            {
+              "id": "s1-3-7",
+              "tipe": "pasangan",
+              "pasangan": [["udeh", "sudah"], ["belon", "belum"], ["pegi", "pergi"], ["kudu", "harus"]],
+              "validator": null,
+              "tanggal_validasi": null
+            }
+          ]
+        },
+        {"id": "p1-4", "judul": "Ulang sapaan", "jenis": "ulasan", "ikon": "buku", "soal": []}
+      ]
+    },
+    {
+      "id": "b2",
+      "nomor": 2,
+      "judul": "Makan dan jajan",
+      "lokasi": "condet",
+      "namaLokasi": "Condet",
+      "warna": "hijau",
+      "kisah": "kisah-condet",
+      "lencana": {"id": "lencana-b2", "nama": "Tukang Jajan"},
+      "pelajaran": [
+        {
+          "id": "p2-1",
+          "judul": "Jajan di kebon salak",
+          "jenis": "pelajaran",
+          "ikon": "bintang",
+          "soal": [
+            {
+              "id": "s2-1-1",
+              "tipe": "pilih_arti",
+              "kata": "demen",
+              "pilihan": ["suka", "benci", "takut", "lupa"],
+              "jawaban": "suka",
+              "contoh": "Aye demen salak. (Saya suka salak.)",
+              "validator": null,
+              "tanggal_validasi": null
+            },
+            {
+              "id": "s2-1-2",
+              "tipe": "pilih_arti",
+              "kata": "kebon",
+              "pilihan": ["kebun", "rumah", "sungai", "sawah"],
+              "jawaban": "kebun",
+              "contoh": "Kebon salak di Condet. (Kebun salak di Condet.)",
+              "validator": null,
+              "tanggal_validasi": null
+            },
+            {
+              "id": "s2-1-3",
+              "tipe": "dengar",
+              "audio": null,
+              "teks": "Aye demen salak.",
+              "pilihan": ["Aye demen salak.", "Aye mau duku.", "Ente demen ape?", "Aye kagak demen."],
+              "jawaban": "Aye demen salak.",
+              "contoh": "Aye demen salak. = Saya suka salak.",
+              "validator": null,
+              "tanggal_validasi": null
+            },
+            {
+              "id": "s2-1-4",
+              "tipe": "susun",
+              "teks": "Aye demen makan salak Condet.",
+              "jawaban": ["Saya", "suka", "makan", "salak", "Condet"],
+              "pengecoh": ["tidak", "kebun"],
+              "contoh": "Babe demen makan duku. (Ayah suka makan duku.)",
+              "validator": null,
+              "tanggal_validasi": null
+            },
+            {
+              "id": "s2-1-5",
+              "tipe": "pantun",
+              "baris": [
+                "Kerak telor dimasak di arang,",
+                "Dimakan anget di pinggir kali,",
+                "Duit jajan jangan dibuang,",
+                "Mendingan ___ buat nanti."
+              ],
+              "pilihan": ["ditabung", "dibuang", "dimakan", "dijual"],
+              "jawaban": "ditabung",
+              "contoh": "Duit = uang",
+              "validator": null,
+              "tanggal_validasi": null
+            },
+            {
+              "id": "s2-1-6",
+              "tipe": "pasangan",
+              "pasangan": [["demen", "suka"], ["kebon", "kebun"], ["duit", "uang"], ["seger", "segar"]],
+              "validator": null,
+              "tanggal_validasi": null
+            },
+            {
+              "id": "s2-1-7",
+              "tipe": "pilih_arti",
+              "kata": "duit",
+              "pilihan": ["uang", "makanan", "kebun", "pasar"],
+              "jawaban": "uang",
+              "contoh": "Duit jajan aye abis. (Uang jajan saya habis.)",
+              "validator": null,
+              "tanggal_validasi": null
+            }
+          ]
+        },
+        {
+          "id": "p2-2",
+          "judul": "Laper ame aus",
+          "jenis": "pelajaran",
+          "ikon": "audio",
+          "soal": [
+            {
+              "id": "s2-2-1",
+              "tipe": "pilih_arti",
+              "kata": "laper",
+              "pilihan": ["lapar", "haus", "kenyang", "capek"],
+              "jawaban": "lapar",
+              "contoh": "Aye laper. (Saya lapar.)",
+              "validator": null,
+              "tanggal_validasi": null
+            },
+            {
+              "id": "s2-2-2",
+              "tipe": "pilih_arti",
+              "kata": "aus",
+              "pilihan": ["haus", "lapar", "panas", "dingin"],
+              "jawaban": "haus",
+              "contoh": "Aye aus, mau minum. (Saya haus, mau minum.)",
+              "validator": null,
+              "tanggal_validasi": null
+            },
+            {
+              "id": "s2-2-3",
+              "tipe": "dengar",
+              "audio": null,
+              "teks": "Aye aus, mau minum.",
+              "pilihan": ["Aye aus, mau minum.", "Aye laper, mau makan.", "Aye demen salak.", "Udeh makan belon?"],
+              "jawaban": "Aye aus, mau minum.",
+              "contoh": "Aus = haus",
+              "validator": null,
+              "tanggal_validasi": null
+            },
+            {
+              "id": "s2-2-4",
+              "tipe": "susun",
+              "teks": "Aye laper, mau makan nasi uduk.",
+              "jawaban": ["Saya", "lapar", "mau", "makan", "nasi", "uduk"],
+              "pengecoh": ["haus", "minum"],
+              "contoh": "Nyak masak nasi uduk. (Ibu memasak nasi uduk.)",
+              "validator": null,
+              "tanggal_validasi": null
+            },
+            {
+              "id": "s2-2-5",
+              "tipe": "pilih_arti",
+              "kata": "kepengen",
+              "pilihan": ["ingin", "harus", "boleh", "sudah"],
+              "jawaban": "ingin",
+              "contoh": "Aye kepengen ke Condet. (Saya ingin ke Condet.)",
+              "validator": null,
+              "tanggal_validasi": null
+            },
+            {
+              "id": "s2-2-6",
+              "tipe": "susun",
+              "teks": "Aye kepengen minum bir pletok.",
+              "jawaban": ["Saya", "ingin", "minum", "bir", "pletok"],
+              "pengecoh": ["makan", "tidak"],
+              "contoh": "Bir pletok adalah minuman rempah tanpa alkohol.",
+              "validator": null,
+              "tanggal_validasi": null
+            },
+            {
+              "id": "s2-2-7",
+              "tipe": "pasangan",
+              "pasangan": [["laper", "lapar"], ["aus", "haus"], ["kepengen", "ingin"], ["nyang", "yang"]],
+              "validator": null,
+              "tanggal_validasi": null
+            }
+          ]
+        },
+        {"id": "p2-3", "judul": "Ulang kata jajan", "jenis": "ulasan", "ikon": "buku", "soal": []}
+      ]
+    },
+    {
+      "id": "b3",
+      "nomor": 3,
+      "judul": "Keluarga Betawi",
+      "lokasi": "setu-babakan",
+      "namaLokasi": "Setu Babakan",
+      "warna": "biru",
+      "kisah": "kisah-setu-babakan",
+      "lencana": {"id": "lencana-b3", "nama": "Anak Setu"},
+      "pelajaran": [
+        {
+          "id": "p3-1",
+          "judul": "Babe ame Nyak",
+          "jenis": "pelajaran",
+          "ikon": "bintang",
+          "soal": [
+            {
+              "id": "s3-1-1",
+              "tipe": "pilih_arti",
+              "kata": "babe",
+              "pilihan": ["ayah", "ibu", "kakek", "paman"],
+              "jawaban": "ayah",
+              "contoh": "Babe lagi di kebon. (Ayah sedang di kebun.)",
+              "validator": null,
+              "tanggal_validasi": null
+            },
+            {
+              "id": "s3-1-2",
+              "tipe": "pilih_arti",
+              "kata": "nyak",
+              "pilihan": ["ibu", "ayah", "nenek", "bibi"],
+              "jawaban": "ibu",
+              "contoh": "Nyak lagi masak. (Ibu sedang memasak.)",
+              "validator": null,
+              "tanggal_validasi": null
+            },
+            {
+              "id": "s3-1-3",
+              "tipe": "dengar",
+              "audio": null,
+              "teks": "Babe lagi di kebon.",
+              "pilihan": ["Babe lagi di kebon.", "Nyak lagi masak.", "Engkong lagi tidur.", "Mpok lagi sekolah."],
+              "jawaban": "Babe lagi di kebon.",
+              "contoh": "Lagi = sedang",
+              "validator": null,
+              "tanggal_validasi": null
+            },
+            {
+              "id": "s3-1-4",
+              "tipe": "susun",
+              "teks": "Nyak lagi masak sayur asem.",
+              "jawaban": ["Ibu", "sedang", "memasak", "sayur", "asam"],
+              "pengecoh": ["ayah", "sudah"],
+              "contoh": "Nyak lagi di dapur. (Ibu sedang di dapur.)",
+              "validator": null,
+              "tanggal_validasi": null
+            },
+            {
+              "id": "s3-1-5",
+              "tipe": "pilih_arti",
+              "kata": "engkong",
+              "pilihan": ["kakek", "nenek", "ayah", "kakak"],
+              "jawaban": "kakek",
+              "contoh": "Engkong tinggal di Setu Babakan. (Kakek tinggal di Setu Babakan.)",
+              "validator": null,
+              "tanggal_validasi": null
+            },
+            {
+              "id": "s3-1-6",
+              "tipe": "pasangan",
+              "pasangan": [["babe", "ayah"], ["nyak", "ibu"], ["engkong", "kakek"], ["mpok", "kakak perempuan"]],
+              "validator": null,
+              "tanggal_validasi": null
+            },
+            {
+              "id": "s3-1-7",
+              "tipe": "pantun",
+              "baris": [
+                "Pegi ke Setu naek sepede,",
+                "Liat ondel-ondel di pinggir jalan,",
+                "Sayangin babe ame nyak di rume,",
+                "Bantuin nyak ___ makan."
+              ],
+              "pilihan": ["nyiapin", "ngabisin", "ngebuang", "nyembunyiin"],
+              "jawaban": "nyiapin",
+              "contoh": "Nyiapin = menyiapkan",
+              "validator": null,
+              "tanggal_validasi": null
+            }
+          ]
+        },
+        {
+          "id": "p3-2",
+          "judul": "Rume kebaya",
+          "jenis": "pelajaran",
+          "ikon": "pena",
+          "soal": [
+            {
+              "id": "s3-2-1",
+              "tipe": "pilih_arti",
+              "kata": "rume",
+              "pilihan": ["rumah", "kebun", "pasar", "sekolah"],
+              "jawaban": "rumah",
+              "contoh": "Rume engkong gede. (Rumah kakek besar.)",
+              "validator": null,
+              "tanggal_validasi": null
+            },
+            {
+              "id": "s3-2-2",
+              "tipe": "pilih_arti",
+              "kata": "empang",
+              "pilihan": ["kolam", "sungai", "laut", "sawah"],
+              "jawaban": "kolam",
+              "contoh": "Ikan di empang. (Ikan di kolam.)",
+              "validator": null,
+              "tanggal_validasi": null
+            },
+            {
+              "id": "s3-2-3",
+              "tipe": "dengar",
+              "audio": null,
+              "teks": "Rume engkong deket setu.",
+              "pilihan": ["Rume engkong deket setu.", "Babe lagi di kebon.", "Aye mau pegi ke pasar.", "Nyak lagi masak."],
+              "jawaban": "Rume engkong deket setu.",
+              "contoh": "Deket = dekat",
+              "validator": null,
+              "tanggal_validasi": null
+            },
+            {
+              "id": "s3-2-4",
+              "tipe": "susun",
+              "teks": "Rume kebaya ade di Setu Babakan.",
+              "jawaban": ["Rumah", "kebaya", "ada", "di", "Setu", "Babakan"],
+              "pengecoh": ["ke", "dari"],
+              "contoh": "Ade = ada",
+              "validator": null,
+              "tanggal_validasi": null
+            },
+            {
+              "id": "s3-2-5",
+              "tipe": "pilih_arti",
+              "kata": "gede",
+              "pilihan": ["besar", "kecil", "tinggi", "jauh"],
+              "jawaban": "besar",
+              "contoh": "Ondel-ondel ntu gede. (Ondel-ondel itu besar.)",
+              "validator": null,
+              "tanggal_validasi": null
+            },
+            {
+              "id": "s3-2-6",
+              "tipe": "pasangan",
+              "pasangan": [["rume", "rumah"], ["gede", "besar"], ["deket", "dekat"], ["setu", "danau"]],
+              "validator": null,
+              "tanggal_validasi": null
+            },
+            {
+              "id": "s3-2-7",
+              "tipe": "susun",
+              "teks": "Teras rume engkong gede.",
+              "jawaban": ["Teras", "rumah", "kakek", "besar"],
+              "pengecoh": ["kecil", "ibu"],
+              "contoh": "Teras rume kebaya luas. (Teras rumah kebaya luas.)",
+              "validator": null,
+              "tanggal_validasi": null
+            }
+          ]
+        },
+        {"id": "p3-3", "judul": "Ulang kata keluarga", "jenis": "ulasan", "ikon": "buku", "soal": []}
+      ]
+    }
+  ]
+}
