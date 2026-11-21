@@ -1,0 +1,14 @@
+{
+  "pujian": [
+    {"id": "pujian-mantap", "teks": "Mantap!", "arti": "Bagus sekali!", "validator": null, "tanggal_validasi": null},
+    {"id": "pujian-jempolan", "teks": "Jempolan!", "arti": "Hebat!", "validator": null, "tanggal_validasi": null},
+    {
+      "id": "pujian-pinter",
+      "teks": "Pinter bener!",
+      "arti": "Pintar sekali!",
+      "validator": null,
+      "tanggal_validasi": null
+    },
+    {"id": "pujian-jago", "teks": "Jago bener!", "arti": "Hebat sekali!", "validator": null, "tanggal_validasi": null}
+  ]
+}

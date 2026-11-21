@@ -1,0 +1,60 @@
+{
+  "kartu": [
+    {
+      "id": "roti-buaya",
+      "nama": "Roti buaya",
+      "kategori": "Tradisi",
+      "keterangan": "Roti berbentuk buaya yang dibawa pengantin pria dalam pernikahan Betawi.",
+      "validator": null,
+      "tanggal_validasi": null
+    },
+    {
+      "id": "keroncong-kemayoran",
+      "nama": "Keroncong Kemayoran",
+      "kategori": "Kesenian",
+      "keterangan": "Gaya keroncong yang berkembang di Kemayoran.",
+      "validator": null,
+      "tanggal_validasi": null
+    },
+    {
+      "id": "salak-condet",
+      "nama": "Salak Condet",
+      "kategori": "Alam",
+      "keterangan": "Salak dari Condet, tanaman identitas Jakarta.",
+      "validator": null,
+      "tanggal_validasi": null
+    },
+    {
+      "id": "dodol-betawi",
+      "nama": "Dodol Betawi",
+      "kategori": "Kuliner",
+      "keterangan": "Dodol dari ketan, santan, dan gula merah yang diaduk berjam-jam.",
+      "validator": null,
+      "tanggal_validasi": null
+    },
+    {
+      "id": "ondel-ondel",
+      "nama": "Ondel-ondel",
+      "kategori": "Kesenian",
+      "keterangan": "Boneka besar berpasangan, laki-laki dan perempuan.",
+      "validator": null,
+      "tanggal_validasi": null
+    },
+    {
+      "id": "gambang-kromong",
+      "nama": "Gambang kromong",
+      "kategori": "Kesenian",
+      "keterangan": "Musik perpaduan alat Betawi dan Tionghoa.",
+      "validator": null,
+      "tanggal_validasi": null
+    },
+    {
+      "id": "kerak-telor",
+      "nama": "Kerak telor",
+      "kategori": "Kuliner",
+      "keterangan": "Ketan dan telur yang dimasak di atas arang.",
+      "validator": null,
+      "tanggal_validasi": null
+    }
+  ]
+}
