@@ -1,0 +1,30 @@
+{
+  "name": "gameloka",
+  "private": true,
+  "version": "0.2.0",
+  "type": "module",
+  "description": "Prototype web Gameloka: belajar bahasa dan budaya Betawi untuk siswa SMP",
+  "engines": {
+    "node": ">=22.18"
+  },
+  "scripts": {
+    "dev": "node scripts/dev.mjs",
+    "dev:server": "node --watch server/index.ts",
+    "build": "tsc -b && vite build",
+    "start": "NODE_ENV=production node server/index.ts",
+    "cek": "tsc -b && node scripts/cek-konten.ts"
+  },
+  "dependencies": {
+    "@fontsource-variable/nunito": "^5.3.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.3.0",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.8"
+  }
+}
